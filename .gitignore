@@ -1,0 +1,4 @@
+googletest/
+.vscode/
+build/
+.DS_Store

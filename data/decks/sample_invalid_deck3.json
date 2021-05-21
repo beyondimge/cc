@@ -1,0 +1,41 @@
+{
+  "deckname": "sample_invalid3_more_than_2colors",
+  "List": [
+    {
+      "name": "サソリ",
+      "num": 3
+    },
+    {
+      "name": "翼竜",
+      "num": 3
+    },
+    {
+      "name": "赤鬼",
+      "num": 3
+    },
+    {
+      "name": "世界樹",
+      "num": 3
+    },
+    {
+      "name": "タツノオトシゴ",
+      "num": 3
+    },
+    {
+      "name": "ランプの精霊",
+      "num": 3
+    },
+    {
+      "name": "青鬼",
+      "num": 3
+    },
+    {
+      "name": "カニ",
+      "num": 3
+    },
+    {
+      "name": "黒ドラゴン",
+      "num": 3
+    }
+  ]
+}

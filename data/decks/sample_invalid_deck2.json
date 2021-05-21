@@ -1,0 +1,13 @@
+{
+  "deckname": "sample_invalid2_less_than_27cards",
+  "List": [
+    {
+      "name": "サソリ",
+      "num": 3
+    },
+    {
+      "name": "翼竜",
+      "num": 2
+    }
+  ]
+}

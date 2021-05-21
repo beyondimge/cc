@@ -1,0 +1,264 @@
+{
+    "card": [
+        {
+            "id": 0,
+            "cardname": "サソリ",
+            "color": "Red",
+            "level": 1,
+            "attack": 4,
+            "hp": 1,
+            "speed": "Normal",
+            "race": null,
+            "effects": []
+        },
+        {
+            "id": 1,
+            "cardname": "タツノオトシゴ",
+            "color": "Blue",
+            "level": 1,
+            "attack": 2,
+            "hp": 3,
+            "speed": "Normal",
+            "race": null,
+            "effect": []
+        },
+        {
+            "id": 2,
+            "cardname": "アルマジロ",
+            "color": "Green",
+            "level": 1,
+            "attack": 2,
+            "hp": 4,
+            "speed": "Slow",
+            "race": null,
+            "effect": []
+        },
+        {
+            "id": 3,
+            "cardname": "翼竜",
+            "color": "Red",
+            "level": 2,
+            "attack": 2,
+            "hp": 1,
+            "speed": "Fast",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Cast"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "cardname": "黒ドラゴン",
+            "color": "Black",
+            "level": 5,
+            "attack": 7,
+            "hp": 7,
+            "speed": "Normal",
+            "race": "Dragon",
+            "effect": [
+                {
+                    "type": "Cast"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "cardname": "ドラゴンゾンビ",
+            "color": "Black",
+            "level": 5,
+            "attack": 7,
+            "hp": 7,
+            "speed": "slow",
+            "race": "Dragon",
+            "effect": [
+                {
+                    "type": "Battlefield"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "cardname": "世界樹",
+            "color": "Green",
+            "level": 6,
+            "attack": 6,
+            "hp": 8,
+            "speed": "Slow",
+            "race": "Plant",
+            "effect": [
+                {
+                    "type": "Winning",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "cardname": "ランプの精霊",
+            "color": "Blue",
+            "level": 2,
+            "attack": 2,
+            "hp": 3,
+            "speed": "Normal",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Cast",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "cardname": "ウミガメ",
+            "color": "Blue",
+            "level": 2,
+            "attack": 3,
+            "hp": 4,
+            "speed": "Slow",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Cast",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "cardname": "カオスドラゴン",
+            "color": "Black",
+            "level": 6,
+            "attack": 8,
+            "hp": 7,
+            "speed": "Normal",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Cast",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "cardname": "青鬼",
+            "color": "Blue",
+            "level": 3,
+            "attack": 5,
+            "hp": 5,
+            "speed": "Normal",
+            "race": null,
+            "effect": []
+        },
+        {
+            "id": 11,
+            "cardname": "赤鬼",
+            "color": "Red",
+            "level": 3,
+            "attack": 6,
+            "hp": 4,
+            "speed": "Normal",
+            "race": null,
+            "effect": []
+        },
+        {
+            "id": 12,
+            "cardname": "赤マント",
+            "color": "Red",
+            "level": 4,
+            "attack": 5,
+            "hp": 3,
+            "speed": "Normal",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Battlefield",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "cardname": "炎の魔女",
+            "color": "Red",
+            "level": 3,
+            "attack": 6,
+            "hp": 3,
+            "speed": "Normal",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Cast",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "cardname": "カニ",
+            "color": "Blue",
+            "level": 2,
+            "attack": 2,
+            "hp": 3,
+            "speed": "Normal",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Cast",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "cardname": "人魚メイジ",
+            "color": "Blue",
+            "level": 2,
+            "attack": 2,
+            "hp": 2,
+            "speed": "Normal",
+            "race": "Merfolk",
+            "effect": [
+                {
+                    "type": "Cast",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "cardname": "ナーガ",
+            "color": "Blue",
+            "level": 3,
+            "attack": 3,
+            "hp": 3,
+            "speed": "Normal",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Losing",
+                    "args": ""
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "cardname": "赤い煙",
+            "color": "Red",
+            "level": 0,
+            "attack": 0,
+            "hp": 0,
+            "speed": "Normal",
+            "race": null,
+            "effect": [
+                {
+                    "type": "Cast",
+                    "args": ""
+                }
+            ]
+        }
+    ]
+}

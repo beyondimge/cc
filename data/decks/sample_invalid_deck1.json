@@ -1,0 +1,13 @@
+{
+  "deckname": "sample_invalid1_more_than_3same_cards",
+  "List": [
+    {
+      "name": "サソリ",
+      "num": 24
+    },
+    {
+      "name": "翼竜",
+      "num": 3
+    }
+  ]
+}

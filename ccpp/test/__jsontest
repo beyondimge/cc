@@ -1,0 +1,40 @@
+#include <iostream>
+#include <vector>
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/json_parser.hpp>
+#include <boost/optional.hpp>
+
+std::vector<std::string> read() {
+  std::vector<std::string> deck;
+  std::string json_file_path = "../../../data/decks/sample_valid_deck.json";
+
+    boost::property_tree::ptree pt;
+  boost::property_tree::read_json(json_file_path, pt);
+
+  for (const auto e: pt.get_child("List"))
+  {
+    const boost::property_tree::ptree& info = e.second;
+    if (boost::optional<std::string> name = info.get_optional<std::string>("name"))
+    {
+      std::cout << "name: " << name.get() << std::endl;
+    }
+    else
+    {
+      std::cout << "name is nothing" << std::endl;
+    }
+
+    if (boost::optional<int> num = info.get_optional<int>("num"))
+    {
+      std::cout << "num: " << num.get() << std::endl;
+    }
+    else
+    {
+      std::cout << "num is nothing" << std::endl;
+    }
+
+  }
+
+  return deck;
+}
+
+int main() { read(); }
